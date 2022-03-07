@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/*menu de navegacion*/
+.menu{
+    background-color: rgb(252, 62, 62);
+    padding: 50px 0px;
+    /*height: 100px;
+    width: 1200px;*/
+}
+.menu img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.menu-nav{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.menu-nav__item{
+    display: inline-block;
+}
+
+.menu-nav__item a{
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+/*pagina cliente*/
+main{
+    width: 100%;
+    height: 1000px;
+    padding: 0px 0px;
+}
+
+.imagen{
+    background-image: url("pasteles/pasteles1.jpg");
+    padding: 200px;
+}
+
+.imagen p{
+ text-align: center;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 50px;
+ color: rgb(252, 255, 98);
+}
+
+.formulario p{
+    text-align: center;
+}
+
+.formulario form{
+    padding: 10px;
+}
+
+.contacto{
+    position: absolute;
+    top: 100%;
+    right: 0%;
+}
+
+.Logos{
+    float: left;
+}
+
+.info{
+    position: relative;
+    bottom: -70px;
+}
+
+.info p1{
+    position: relative;
+    bottom: 30px;
+}
+
+.info p2{
+    position: relative;
+    bottom: -50px;
+}
+
+/*pagina pastelero*/

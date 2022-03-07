@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria la estrella</title>
+    <link rel="stylesheet" href="CSS/pastelero.css">
+</head>
+<body>
+    <header>  
+        <nav class="menu">
+            <img src="imagenes/estrella.jpg" alt="logo" width="70" height="70">
+            <ul class="menu-nav">
+                <li class="menu-nav__item"><a href="">Inicio</a></li>
+                <li class="menu-nav__item"><a href="">Pedidos</a></li>
+                <li class="menu-nav__item"><a href="">Ingredientes y Adornos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="caja_principal">
+            <p>Pedidos</p>
+            <div class="pedidos">
+                <p1>Lista de Pedidos</p1>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Id</th>
+                        <th>Fecha</th>
+                    </tr>
+                    <tr>
+                        <td>persona1</td>
+                        <td>01</td>
+                        <td>05/03/2022</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>persona2</td>
+                        <td>02</td>
+                        <td>15/03/2022</td>   
+                    </tr>
+                    <tr>
+                        <td>persona3</td>
+                        <td>03</td>
+                        <td>23/03/2022</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="descripcion">
+                <p2>Descripcion del Pedido</p2>
+                <form>
+                    <label for="nombre">Nombre*:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <br>
+                    <br>
+                    <label for="email">Correo*:</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <br>
+                    <label for="telefono">Telefono*:</label>
+                    <input type="text" id="telefono" name="telefono">
+                    <br>
+                    <br>
+                    <label for="personas">Cant de personas*:</label>
+                    <input type="number" id="personas" name="personas">
+                    <br>
+                    <br>
+                    <label for="evento">Tipo de evento*:</label>
+                    <input type="text" id="evento" name="evento">
+                    <br>
+                    <br>
+                    <label for="sabores">Cantidad de sabores*:</label>
+                    <input type="number" id="sabores" name="sabores">
+                    <br>
+                    <br>
+                    <label for="sabor1">Sabor 1*:</label>
+                    <select name="sabor1" id="sabor1">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="fresa">Fresa</option>
+                        <option value="vainilla">vainilla</option>
+                        <option value="moras">Moras</option>
+                        <option value="zanahoria">Zanahoria</option>
+                        <option value="naranja">Naranja</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="sabor2">Sabor 2*:</label>
+                    <select name="sabor2" id="sabor2">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="fresa">Fresa</option>
+                        <option value="vainilla">vainilla</option>
+                        <option value="moras">Moras</option>
+                        <option value="zanahoria">Zanahoria</option>
+                        <option value="naranja">Naranja</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="sabor3">Sabor 3*:</label>
+                    <select name="sabor3" id="sabor3">
+                        <option value="chocolate">Chocolate</option>
+                        <option value="fresa">Fresa</option>
+                        <option value="vainilla">vainilla</option>
+                        <option value="moras">Moras</option>
+                        <option value="zanahoria">Zanahoria</option>
+                        <option value="naranja">Naranja</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="adorno">Cantidad de adorno*:</label>
+                    <input type="number" id="adorno" name="adorno">
+                    <br>
+                    <br>
+                    <label for="adorno1">Adorno 1*:</label>
+                    <select name="adorno1" id="adorno1">
+                        <option value="flores">Flores</option>
+                        <option value="chispas">Chispas</option>
+                        <option value="fondant">Fondant</option>
+                        <option value="cerezas">Cerezas</option>
+                        <option value="frutas">Fruta</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="adorno2">Adorno 2*:</label>
+                    <select name="adorno2" id="adorno2">
+                        <option value="flores">Flores</option>
+                        <option value="chispas">Chispas</option>
+                        <option value="fondant">Fondant</option>
+                        <option value="cerezas">Cerezas</option>
+                        <option value="frutas">Fruta</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="adorno3">Adorno 3*:</label>
+                    <select name="adorno3" id="adorno3">
+                        <option value="flores">Flores</option>
+                        <option value="chispas">Chispas</option>
+                        <option value="fondant">Fondant</option>
+                        <option value="cerezas">Cerezas</option>
+                        <option value="frutas">Fruta</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="descripcion">Descripcion</label>
+                    <br>
+                    <textarea name="descripcion" id="descripcion"></textarea>
+                </form>
+            </div>
+
+            <div class="ingredientes">
+                <p3>Ingredientes</p3>
+                <table>
+                    <tr>
+                        <th>Ingrediente</th>
+                        <th>cantidad</th>
+                    </tr>
+                    <tr>
+                        <td>Chocolate</td>
+                        <td>50kg</td>
+                    </tr>
+                    <tr>
+                        <td>Fresa</td>
+                        <td>30Kg</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Vainilla</td>
+                        <td>10kg</td>
+                    </tr>
+                    <tr>
+                        <td>Moras</td>
+                        <td>5kg</td>
+                    </tr>
+                    <tr>
+                        <td>Zanahoria</td>
+                        <td>60kg</td>
+                    </tr>
+                    <tr>
+                        <td>Naranja</td>
+                        <td>40kg</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="adornos">
+                <p4>Adornos</p4>
+                <table>
+                    <tr>
+                        <th>Adornos</th>
+                        <th>cantidad</th>
+                    </tr>
+                    <tr>
+                        <td>Flores</td>
+                        <td>30pza</td>
+                    </tr>
+                    <tr>
+                        <td>Chispas</td>
+                        <td>50kg</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Fondant</td>
+                        <td>20kg</td>
+                    </tr>
+                    <tr>
+                        <td>Cerezas</td>
+                        <td>5kg</td>
+                    </tr>
+                    <tr>
+                        <td>Fruta</td>
+                        <td>10kg</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

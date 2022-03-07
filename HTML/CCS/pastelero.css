@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/*menu de navegacion*/
+.menu{
+    background-color: rgb(252, 62, 62);
+    padding: 50px 0px;
+    /*height: 100px;
+    width: 1200px;*/
+}
+.menu img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.menu-nav{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.menu-nav__item{
+    display: inline-block;
+    
+}
+.menu-nav__item a{
+    display: block;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+/*Bloque principal*/
+
+.caja_principal {
+    background: rgb(142, 191, 255);
+    height: 650px;
+}
+.caja_principal p{
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Estilo de las tablas*/
+
+table, th, td{
+    border: 2px solid rgb(11, 0, 20);
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+
+th, td{
+    padding: 5px;
+}
+
+th{
+    background: rgb(252, 62, 62);
+}
+
+tr:hover{
+    background: #c0c0c0;
+}
+
+.descripcion{
+    width: 500px;
+    height: 600px;
+    position: absolute ;
+    top: 130px;
+    bottom: 10px;
+    right: 50px;
+}
+
+.descripcion form{
+    border: 2px solid rgb(11, 0, 20);
+}
+
+.pedidos{
+    width: 500px;
+    position: relative;
+    left: 50px;
+}
+
+.ingredientes{
+    width: 500px;
+    position: relative;
+    left: 50px;
+}
+
+.adornos{
+    width: 500px;
+    position: relative;
+    left: 50px;
+}
